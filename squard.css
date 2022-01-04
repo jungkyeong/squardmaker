@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: orange;
+}
+
+.field{
+    width: 1000px;
+    height: 640px;
+    background-color: rgb(30, 175, 30);
+    border: solid white 5px;
+}
+
+.bench{
+    width: 1000px;
+    height: 240px;
+    background-color: gainsboro;
+    border: solid gainsboro 5px;
+}
+
+.PositionLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PositionLine span{
+    width:200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.player{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.PositionLine:hover{
+    background-color: yellowgreen;
+}
+
+#name{
+    width: 100px;
+    height: 20px;
+    border: solid 2px aliceblue;
+    background-color: aliceblue;
+    font-size: 17px;
+    text-align: center;
+}
